@@ -8,7 +8,7 @@ on:
 env:
   
   # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: rg-aca-orleans
+  RESOURCE_GROUP_NAME: rg-acaorleans
 
   # specify your preferred region
   REGION: uksouth
