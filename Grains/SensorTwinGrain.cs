@@ -5,7 +5,7 @@ using Orleans.Configuration;
 
 namespace Grains
 {
-    [CollectionAgeLimit(Minutes = 1)]
+    [CollectionAgeLimit(Minutes = 2)]
     [DontPlaceMeOnTheDashboard]
     public class SensorTwinGrain : Grain, ISensorTwinGrain
     {
