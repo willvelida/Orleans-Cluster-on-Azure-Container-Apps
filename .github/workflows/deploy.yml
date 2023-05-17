@@ -140,7 +140,7 @@ jobs:
     - name: Azure Login
       uses: azure/login@v1
       with:
-        creds: ${{ secrets.AzureSPN }}
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: Installing Container Apps extension
       uses: azure/CLI@v1
